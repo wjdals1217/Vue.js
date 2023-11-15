@@ -35,7 +35,7 @@ Composition API : Component를 작성하기 위해 Vue3에서 새롭게 도입�
 |LifeCycle Hooks|컴포넌트 생명주기에 맞는 API 제공|
 |Dependency Injection|컴포넌트간 데이터 교환을 위한 API 제공|
 
-|Reactivity
+Reactivity
 |주요 API|설명|
 |:--:|--|
 |ref()|기본 자료형 변수의 반응성을 위한 API|
