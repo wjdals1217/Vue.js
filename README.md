@@ -42,3 +42,19 @@ Reactivity
 |reactive()|객체 속성의 반응성을 위한 API|
 |computed()|데이터의 변화를 감지하여 사용자가 지정한 새로운 값을 생성하는 API|
 |watch()|데이터의 변화를 감지하여 사용자가 지정한 콜백함수를 호출하는 API|
+
+LifeCycle Hooks
+|주요API|설명|
+|:--:|--|
+|onBeforeMount()|기존 beforeMount()동일|
+|onMounted()|기존 mounted()동일|
+|onBeforeUpdate()|기존 beforeUpdate()동일|
+|onUpdated()|기존 updated()동일|
+|onBeforeUnmount()|기존 beforeUnmount()동일|
+|onUnmounted()|기존 unmounted()동일|
+
+Dependency Injection
+|주요 API|설명|
+|:--:|--|
+|provie()|상위 컴포넌트에서 하위 컴포넌트로 데이터 전달을 위한 선언|
+|inject()|상위 컴포넌트에서 정의한 데이터를 하위 컴포넌트에서 주입|
