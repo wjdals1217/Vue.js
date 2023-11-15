@@ -77,5 +77,6 @@ Axios : Promise 기반 HTTP 통신 라이브러리
 |axios.get('URL 주소').then().catch()|해당 URL 주소에 대해 HTTP GET 요청을 보냅니다. 서버에서 보낸 데이터를 정상적으로 받아오면 then() 안에 정의한 로직이 실행되고, 데이터를 반아올 때 오류가 발생하면 catch()에 정의한 로직이 수행됩니다.|
 |axios.post('URL 주소').then().catch()|해당 URL 주소에 대해 HTTP POST 요청을 보냅니다. then()과 catch()의 동작은 위에서 살펴본 내용과 동일합니다.|
 |axios.({옵션 속성})|HTTP 요청에 대한 자세한 속성들을 직접 정의하여 보낼 수 있습니다. 데이터 요청을 보낼 URL, HTTP 요청 방식, 보내는 데이터 유형, 기타 등등.|
+
 JWT : 사용자를 인증하고 식별하기 위한 Token 기반 인증 기술. 사용자의 인증 정보와 Server에서 발급되었음을 증명하는 서명이 포함되어 있는 암호화된 문자열을 Client에서 저장 관리하는 방식.
-      크게 헤더(header), 페이로드(payload), 서명(signature)으로 구성
+크게 헤더(header), 페이로드(payload), 서명(signature)으로 구성
