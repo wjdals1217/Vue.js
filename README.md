@@ -80,3 +80,7 @@ Axios : Promise 기반 HTTP 통신 라이브러리
 
 JWT : 사용자를 인증하고 식별하기 위한 Token 기반 인증 기술. 사용자의 인증 정보와 Server에서 발급되었음을 증명하는 서명이 포함되어 있는 암호화된 문자열을 Client에서 저장 관리하는 방식.
 크게 헤더(header), 페이로드(payload), 서명(signature)으로 구성
+
+
+### Ch08 
+Vuetify
